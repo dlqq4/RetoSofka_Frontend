@@ -41,5 +41,22 @@ Spring Boot Dev Tools<br>
 ![Arquitectura](https://user-images.githubusercontent.com/65242076/191196673-f172309f-4090-4c43-8c8c-a9251940ffbe.jpg)
 <br>
 
+<h2>Funcionalidades 🕹️ </h2>
+<p>Agregar nuevas naves<p>
+  
+ ![agrega](https://user-images.githubusercontent.com/65242076/191364811-ed7f15a1-9805-4957-b39b-75602ec0131e.jpg)
+  <br>
+  
+  <p>Listar por tipo<p>
+    
+ ![lista](https://user-images.githubusercontent.com/65242076/191365061-ee8e1fe8-3db4-4171-bfd7-0c8fde6855e4.jpg)
+
+ <br> 
+    
+<p>Buscador<p>
+  
+ ![mini2](https://user-images.githubusercontent.com/65242076/191365459-bd314b22-9667-4842-8ab3-f4689d912211.jpg)
+
+
 <h2> Autor ✒️<h2>
 <p>Bruno Fernández<p>
