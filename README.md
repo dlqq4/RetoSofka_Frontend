@@ -38,7 +38,9 @@ Spring Boot Dev Tools<br>
 
 <h2> Arquitectura del Proyecto 📋 </h2>
 
-![Arquitectura](https://user-images.githubusercontent.com/65242076/191196673-f172309f-4090-4c43-8c8c-a9251940ffbe.jpg)
+![Angular](https://user-images.githubusercontent.com/65242076/191366889-81e6f643-ea10-490f-8d25-198b43ea864c.jpg)
+
+
 <br>
 
 <h2>Funcionalidades 🕹️ </h2>
