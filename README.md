@@ -1,27 +1,45 @@
-# EstacionEspacial
+<h1>Frontend - Estación Espacial - 🚀</h1>
+<br>
+<p>En este repositorio se entrega la implementación del  Frontend correspondiente a el reto técnico “ESTACIÓN ESPACIAL SOFKA ”.<br>
+En mismo consta de 2 proyectos, uno Backend implementado en el lenguaje de programación JAVA, utilizando Spring Boot.<br>
+Por otra parte el Frontend se implementa con el framework Angular.<br>
+ 
+  ![mini](https://user-images.githubusercontent.com/65242076/191353077-b90e1759-7811-4d64-b638-6f132c3c671e.jpg)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
+<p>
+<br>
+<h2>Video demostrativo 🎬</h2>
+<p>https://youtu.be/unk9YnE5BIU<p>
+<br>
+<h2>Repositorio Backend 📌</h2>
+<p>https://github.com/dlqq4/RetoSofka_Backend<p>
+<br>
+<h2>Backend:</h2>
+<p>Spring Boot 2.7.3<br>
+Java 8<br>
+Oracle Open JDK 1.8.0.241<br>
+Maven<br>
+Intellij Idea Ultimate Edition 2022.2<br>
+MySQL<br>
+</p>
+<h2>Frontend:</h2>
+<p>Angular CLI 14.2.1<br>
+</p>
+<br>
+<h2>Dependencias utilizadas 🔧</h2>
+En primer lugar se configuraron las dependencias mediante Spring Initializer
+<p>
+Spring Data JPA<br>
+Spring WEB<br>
+MySQL Driver<br>
+Spring Boot Dev Tools<br>
+</p>
+<br>
 
-## Development server
+<h2> Arquitectura del Proyecto 📋 </h2>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![Arquitectura](https://user-images.githubusercontent.com/65242076/191196673-f172309f-4090-4c43-8c8c-a9251940ffbe.jpg)
+<br>
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<h2> Autor ✒️<h2>
+<p>Bruno Fernández<p>
