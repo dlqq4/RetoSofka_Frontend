@@ -1,0 +1,69 @@
+<!-- (click)= "(formNoTripulada= true)"  -->
+
+<div class="comienzo" *ngIf="(formLanzadera && formTripulada && formNoTripulada)">
+  <h1>Agreguemos una nueva Nave!</h1>
+  <p>Elige que tipo de nave quieres agregar<br></p>
+  <div>
+    <button class="btn-comienzo" (click)= "(valorForm = 1)"  type="submit">Tripulada</button>
+    <button class="btn-comienzo" (click)= "(valorForm = 2)"  type="submit">No Tripulada</button>
+    <button class="btn-comienzo" (click)= "(valorForm = 3)"  type="submit">Lanzadera</button>
+  </div>
+</div>
+
+
+<section class="form-register"  *ngIf="(!formTripulada)">
+  <h4>Agreguemos una Tripulada</h4>
+  <form>
+    <input class="controls" type="text" id="tipo" name="tipo" [(ngModel)]="tripulada.tipo" placeholder="Tipo">
+    <input class="controls" type="text" id="nombre" name="nombre" [(ngModel)]="tripulada.nombre" placeholder="Nombre">
+    <input class="controls" type="text" id="pais" name="pais"  [(ngModel)]="tripulada.pais" placeholder="País">
+    <input class="controls" type="text" id="combustible" name="combustible"  [(ngModel)]="tripulada.combustible" placeholder="Combustible">
+    <input class="controls" type="number" id="peso" name="peso"  [(ngModel)]="tripulada.peso" placeholder="Peso en Toneladas">
+    <input class="controls" type="number" id="velocidad" name="velocidad"  [(ngModel)]="tripulada.velocidad" placeholder="Velocidad en km/h">
+    <input class="controls" type="number" id="personas" name="personas"  [(ngModel)]="tripulada.personas" placeholder="Capacidad de Tripulantes">
+    <input class="controls" type="text" id="imagen"  name="imagen" [(ngModel)]="tripulada.imagen" placeholder="URL de la imagen">
+    <p>Ya casi terminamos!</p>
+    <button class="boton" (click)="guardarTripulada(tripulada)" type="submit" >Guardar</button>
+    <button class="boton"  [routerLink]="['/app-home']" type="submit" >Volver</button>
+    <p>¡Listo!</p>
+  </form>
+</section>
+
+
+<section class="form-register"  *ngIf="(!formLanzadera)">
+  <h4>Agreguemos una Lanzadera</h4>
+  <form >
+    <input class="controls" type="text" id="tipo2" name="tipo"  [(ngModel)]="lanzadera.tipo"   placeholder="Tipo">
+    <input class="controls" type="text" id="nombre2" name="nombre"  [(ngModel)]="lanzadera.nombre"   placeholder="Nombre">
+    <input class="controls" type="text" id="pais2" name="pais"  [(ngModel)]="lanzadera.pais"   placeholder="País">
+    <input class="controls" type="text" id="combustible2" name="combustible"  [(ngModel)]="lanzadera.combustible"   placeholder="Combustible">
+    <input class="controls" type="number" id="peso2" name="peso"   [(ngModel)]="lanzadera.peso"   placeholder="Peso en Toneladas">
+    <input class="controls" type="number" id="empuje2" name="empuje"   [(ngModel)]="lanzadera.empuje"   placeholder="Empuje en Toneladas">
+    <input class="controls" type="number" id="potencia2" name="potencia"   [(ngModel)]="lanzadera.potencia"   placeholder="Potencia en Caballos">
+    <input class="controls" type="number" id="carga" name="carga"   [(ngModel)]="lanzadera.carga"   placeholder="Capacidad de carga en Toneladas">
+    <input class="controls" type="text" id="imagen2"  name="imagen"  [(ngModel)]="lanzadera.imagen"   placeholder="URL de la imagen">
+
+    <button class="boton" (click)="guardarLanzadera(lanzadera)" type="submit" >Guardar</button>
+    <button class="boton"  [routerLink]="['/app-home']" type="submit" >Volver</button>
+    <p>¡Listo!</p>
+  </form>
+</section>
+
+
+<section class="form-register"  *ngIf="(!formNoTripulada)">
+  <h4>Agreguemos una No Tripulada</h4>
+  <form >
+    <input class="controls" type="text" id="tipo3" name="tipo" [(ngModel)]="noTripulada.tipo" placeholder="Tipo">
+    <input class="controls" type="text" id="nombre3" name="nombre" [(ngModel)]="noTripulada.nombre" placeholder="Nombre">
+    <input class="controls" type="text" id="pais3" name="pais"  [(ngModel)]="noTripulada.pais" placeholder="País">
+    <input class="controls" type="text" id="combustible3" name="combustible"  [(ngModel)]="noTripulada.combustible" placeholder="Combustible">
+    <input class="controls" type="number" id="peso3" name="peso"  [(ngModel)]="noTripulada.peso" placeholder="Peso en Toneladas">
+    <input class="controls" type="number" id="empuje3" name="empuje"   [(ngModel)]="noTripulada.empuje"   placeholder="Empuje en Toneladas">
+    <input class="controls" type="number" id="velocidad3" name="velocidad"  [(ngModel)]="noTripulada.velocidad" placeholder="Velocidad en km/h">
+    <input class="controls" type="text" id="imagen3"  name="imagen" [(ngModel)]="noTripulada.imagen" placeholder="URL de la imagen">
+    <p>Ya casi terminamos!</p>
+    <button class="boton" (click)="guardarNoTripulada(noTripulada)" type="submit" >Guardar</button>
+    <button class="boton"  [routerLink]="['/app-home']" type="submit" >Volver</button>
+    <p>¡Listo!</p>
+  </form>
+</section>

@@ -1,0 +1,18 @@
+
+<div class="container">
+  <div class="card-columns">
+    <div class="card" *ngFor="let index of lanzaderas">
+      <img class="card-img-top" src="{{index.imagen}}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{index.nombre}}</h5>
+        <p class="card-text">Tipo : {{index.tipo}}</p>
+        <p class="card-text">País : {{index.pais}}</p>
+        <p class="card-text">Combustible : {{index.combustible}}</p>
+        <p class="card-text">Peso : {{index.peso}} Toneladas</p>
+        <p class="card-text">Potencia : {{index.potencia}} Caballos</p>
+        <p class="card-text">Empuje : {{index.empuje}} Toneladas</p>
+        <p class="card-text">Capacidad de carga : {{index.carga}} Toneladas</p>
+      </div>
+    </div>
+  </div>
+</div>
